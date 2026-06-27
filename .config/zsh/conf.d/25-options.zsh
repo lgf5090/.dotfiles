@@ -1,0 +1,6 @@
+setopt AUTOCD
+setopt NOBEEP
+setopt NUMERIC_GLOB_SORT
+
+autoload -Uz colors
+colors
