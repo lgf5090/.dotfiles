@@ -28,3 +28,5 @@ if test "$_fish_config_dir" != "$__fish_config_dir"
         test -r "$file"; and source "$file"
     end
 end
+
+test ! -e "$HOME/.x-cmd.root/local/data/fish/rc.fish" || source "$HOME/.x-cmd.root/local/data/fish/rc.fish"  # boot up x-cmd.

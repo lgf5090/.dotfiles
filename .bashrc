@@ -22,3 +22,4 @@ config_file="$HOME/.config/bash/config.bash"
 #     source -- "$HOME/.local/share/blesh/ble.sh"
 #   fi
 # fi
+[ ! -f "$HOME/.x-cmd.root/X" ] || . "$HOME/.x-cmd.root/X" # boot up x-cmd.
